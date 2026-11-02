@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-<p class="project-intro">我的工作覆盖行业大模型落地、动态微服务诊断和模型工程化。每个项目页面聚焦问题、职责、技术路径与可验证结果。</p>
+<p class="project-intro">我的工作覆盖行业大模型落地、教育数据挖掘、动态微服务诊断和模型工程化。每个项目页面聚焦问题、职责、技术路径与可验证结果。</p>
 
 <div class="project-grid">
   <article class="project-card project-card--featured">
@@ -20,6 +20,21 @@ author_profile: true
         <span>Qwen</span><span>SGLang</span><span>Dify</span><span>OCR</span><span>MCP</span>
       </div>
       <a class="project-card__link" href="/portfolio/hubei-port-platform/">查看项目详情 <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+
+  <article class="project-card project-card--featured">
+    <a class="project-card__media" href="/portfolio/whut-education-intelligence/" aria-label="查看理工育人智链项目">
+      <img src="/images/whut-education-intelligence.jpg" alt="理工育人智链项目视觉图" loading="lazy">
+    </a>
+    <div class="project-card__body">
+      <span class="project-card__eyebrow">校级项目 · 数据挖掘核心成员</span>
+      <h2>理工育人智链</h2>
+      <p>融合学业、消费、网络行为等多源数据，开展学生画像、关联分析与预警模型评估，为分层分类帮扶提供可解释的辅助依据。</p>
+      <div class="project-tags" aria-label="项目技术标签">
+        <span>Python</span><span>ClickHouse</span><span>Random Forest</span><span>Association Rules</span>
+      </div>
+      <a class="project-card__link" href="/portfolio/whut-education-intelligence/">查看项目详情 <span aria-hidden="true">→</span></a>
     </div>
   </article>
 
