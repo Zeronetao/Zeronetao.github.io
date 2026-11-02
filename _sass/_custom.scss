@@ -1,0 +1,75 @@
+.page__title {
+  letter-spacing: 0;
+}
+
+.page__content {
+  font-size: 0.98rem;
+  line-height: 1.82;
+}
+
+.page__content h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #dce3ea;
+  letter-spacing: 0;
+}
+
+.author__avatar img {
+  width: 100%;
+  max-width: 175px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 2.25rem;
+}
+
+.research-item {
+  min-width: 0;
+  padding: 1.2rem 1.25rem;
+  border: 1px solid #dce3ea;
+  border-radius: 6px;
+  background: #f8fafc;
+}
+
+.research-item h2 {
+  margin: 0.25rem 0 0.45rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.08rem;
+}
+
+.research-item p {
+  margin: 0;
+  color: #4d5b6b;
+  font-size: 0.9rem;
+}
+
+.research-kicker {
+  color: #087e8b;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.empty-state {
+  margin-top: 1.5rem;
+  padding: 1.4rem 1.5rem;
+  border-left: 4px solid #087e8b;
+  background: #f6f8fa;
+}
+
+.empty-state h2 {
+  margin-top: 0;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
