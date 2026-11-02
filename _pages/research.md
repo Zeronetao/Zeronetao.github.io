@@ -13,9 +13,9 @@ author_profile: true
       <img src="/images/hubei-port-platform.png" alt="湖北港口统一对外服务平台登录页面" loading="lazy">
     </a>
     <div class="project-card__body">
-      <span class="project-card__eyebrow">产业项目 · 大模型组组长</span>
+      <span class="project-card__eyebrow">产业项目 · 大模型组主要负责人</span>
       <h2>湖北港口统一对外服务平台</h2>
-      <p>以统一服务入口连接外部客户、港区生产系统与集团数据资源，建设领域模型、多模态单证识别和可控智能工作流。</p>
+      <p>建设统一服务入口、EDI 数据通道与集装箱专题数据底座，以 OCR 智能体和 AI 助手支持文字问答、图片上传与智能业务办理。</p>
       <div class="project-tags" aria-label="项目技术标签">
         <span>Qwen</span><span>SGLang</span><span>Dify</span><span>OCR</span><span>MCP</span>
       </div>
