@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "陶倩 | 个人学术主页"
+title                    : "陶倩 | 个人主页"
 title_separator          : "-"
 name                     : &name "陶倩"
-description              : &description "陶倩的个人学术主页，关注多模态大模型、微服务诊断、工业智能与物流行业人工智能。"
+description              : &description "陶倩的个人主页，关注多模态大模型、微服务诊断、工业智能与物流行业人工智能。"
 url                      : https://zeronetao.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "tq_blue.png"
   name             : "陶倩"
   pronouns         : # example: "she/her"  
-  bio              : "武汉理工大学硕士研究生｜多模态大模型与工业智能"
+  bio              : "武汉理工大学硕士研究生｜多模态大模型与运维安全"
   location         : "湖北武汉"
   employer         : "武汉理工大学"
   uri              : "https://zeronetao.github.io"

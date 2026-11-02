@@ -5,22 +5,47 @@ permalink: /research/
 author_profile: true
 ---
 
-## 物流多模态智能平台
+<p class="project-intro">我的工作覆盖行业大模型落地、动态微服务诊断和模型工程化。每个项目页面聚焦问题、职责、技术路径与可验证结果。</p>
 
-在湖北港口集团统一对外服务平台项目中担任大模型组组长，负责领域模型微调、多模态识别、推理服务和生产部署。项目基于多台 A800 GPU 构建私有化环境，部署 Qwen 系列大语言模型、视觉语言模型、Embedding 与 Reranker 服务，并通过 Dify、MCP 和领域 API 形成完整工作流。
+<div class="project-grid">
+  <article class="project-card project-card--featured">
+    <a class="project-card__media" href="/portfolio/hubei-port-platform/" aria-label="查看湖北港口统一对外服务平台项目">
+      <img src="/images/hubei-port-platform.png" alt="湖北港口统一对外服务平台登录页面" loading="lazy">
+    </a>
+    <div class="project-card__body">
+      <span class="project-card__eyebrow">产业项目 · 大模型组组长</span>
+      <h2>湖北港口统一对外服务平台</h2>
+      <p>以统一服务入口连接外部客户、港区生产系统与集团数据资源，建设领域模型、多模态单证识别和可控智能工作流。</p>
+      <div class="project-tags" aria-label="项目技术标签">
+        <span>Qwen</span><span>SGLang</span><span>Dify</span><span>OCR</span><span>MCP</span>
+      </div>
+      <a class="project-card__link" href="/portfolio/hubei-port-platform/">查看项目详情 <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
 
-围绕放箱令分类任务，完成数据清洗、标签复核、领域微调、多维评估与上线部署；多套测试集上的最高 F1 达到 **98.78%**，经难例迭代后生产准确率提升至 **99.2%**。同时构建 PDF、图片类物流单证识别能力，并结合目标检测支持集装箱箱号、箱型、铅封号和车牌等信息提取。
+  <article class="project-card">
+    <a class="project-card__visual project-card__visual--diagnosis" href="/portfolio/microservice-diagnosis/" aria-label="查看动态微服务诊断项目">
+      <span>MRC / KLD</span>
+      <strong>Dynamic Diagnosis</strong>
+    </a>
+    <div class="project-card__body">
+      <span class="project-card__eyebrow">科研项目 · 故障诊断</span>
+      <h2>动态微服务根因分析</h2>
+      <p>面向动态拓扑与多源可观测数据，研究多模态细粒度归因和日志感知联合学习。</p>
+      <a class="project-card__link" href="/portfolio/microservice-diagnosis/">查看研究详情 <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
 
-**关键词：** 多模态大模型、文档理解、OCR、领域微调、模型服务
-
-## 动态微服务根因分析
-
-面向动态微服务系统的复杂故障诊断，研究多源观测信息的联合建模，从异常发现进一步走向细粒度归因和根因定位。当前工作包括多模态协同优化方法，以及融合动态特征与日志感知机制的联合学习方法。
-
-**关键词：** 微服务诊断、根因分析、多模态融合、日志建模
-
-## 模型评测与可靠部署
-
-围绕真实业务场景构建数据治理、回归测试、误差分析和性能压测流程，推动模型从实验验证走向可持续运行的生产服务。
-
-**关键词：** 模型评测、误差分析、推理服务、SGLang、工作流集成
+  <article class="project-card">
+    <a class="project-card__visual project-card__visual--evaluation" href="/portfolio/model-evaluation-deployment/" aria-label="查看模型评测与可靠部署项目">
+      <span>EVAL / SERVE</span>
+      <strong>Reliable AI Systems</strong>
+    </a>
+    <div class="project-card__body">
+      <span class="project-card__eyebrow">工程体系 · 模型服务</span>
+      <h2>模型评测与可靠部署</h2>
+      <p>以数据闭环、分层评测、性能压测和可观测运维推动模型稳定进入生产环境。</p>
+      <a class="project-card__link" href="/portfolio/model-evaluation-deployment/">查看工程实践 <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+</div>
