@@ -26,9 +26,11 @@ author:
   avatar           : "tq_blue.png"
   name             : "陶倩"
   pronouns         : # example: "she/her"  
-  bio              : "武汉理工大学硕士研究生｜多模态大模型与运维安全"
+  bio              : "武汉理工大学硕士研究生｜周俊伟教授团队成员"
   location         : "湖北武汉"
   employer         : "武汉理工大学"
+  group            : "周俊伟教授团队"
+  group_url        : "https://junwzhou.github.io/"
   uri              : "https://zeronetao.github.io"
   email            : "299496062@qq.com"
 
@@ -38,7 +40,7 @@ author:
   googlescholar    :
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            :
+  orcid            : "https://orcid.org/0009-0002-1694-5802"
   semantic         : # URL
   ssrn             : # URL
   pubmed           :

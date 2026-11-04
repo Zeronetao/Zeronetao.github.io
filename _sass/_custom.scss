@@ -293,7 +293,259 @@
   font-weight: 700;
 }
 
+.student-hero {
+  margin: 0 0 2.2rem;
+  padding: 2.4rem 2.6rem;
+  background: #173f59;
+  color: #ffffff;
+}
+
+.student-hero__eyebrow,
+.cv-summary__eyebrow {
+  margin: 0 0 0.55rem;
+  color: #b9e4e8;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.student-hero h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 2rem;
+  letter-spacing: 0;
+}
+
+.student-hero h1 span {
+  color: #b9e4e8;
+  font-weight: 500;
+}
+
+.student-hero__role {
+  margin: 0.3rem 0 1rem;
+  font-weight: 700;
+}
+
+.student-hero__affiliation {
+  margin: 0;
+  line-height: 1.75;
+}
+
+.student-hero a {
+  color: #ffffff;
+}
+
+.student-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.4rem;
+}
+
+.student-hero__actions a {
+  padding: 0.38rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.student-hero__actions a:hover {
+  background: #ffffff;
+  color: #173f59;
+}
+
+.home-research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.home-research-item {
+  min-width: 0;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid #d6e0e5;
+  border-radius: 6px;
+  background: #fbfcfd;
+}
+
+.home-research-item span {
+  color: #087e8b;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.home-research-item h3 {
+  margin: 0.3rem 0 0.4rem;
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+
+.home-research-item p {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+.home-publication-list {
+  margin: 1rem 0 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.home-publication-list li {
+  margin-bottom: 0.85rem;
+}
+
+.home-publication-list a {
+  border: 0;
+}
+
+.home-publication-list span {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+}
+
+.home-text-link {
+  display: inline-block;
+  margin: 0.25rem 0 1rem;
+  border: 0;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.home-project-list {
+  margin: 1rem 0 0.5rem;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.home-project-list article {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.home-project-list p {
+  margin: 0 0 0.15rem;
+  color: #087e8b;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.home-project-list h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+
+.home-project-list h3 a {
+  border: 0;
+}
+
+.home-project-list span {
+  color: var(--global-text-color-light);
+  font-size: 0.86rem;
+}
+
+.cv-summary {
+  margin-bottom: 1.6rem;
+  padding: 1.6rem 1.8rem;
+  border-left: 5px solid #087e8b;
+  background: #f4f8f9;
+}
+
+.cv-summary__eyebrow {
+  color: #087e8b;
+}
+
+.cv-summary h2 {
+  margin: 0 0 0.4rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.55rem;
+}
+
+.cv-summary p {
+  margin: 0;
+}
+
+.cv-summary__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.cv-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--global-border-color);
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.cv-facts div {
+  min-width: 0;
+  padding: 0 1rem;
+}
+
+.cv-facts div:first-child {
+  padding-left: 0;
+}
+
+.cv-facts div + div {
+  border-left: 1px solid var(--global-border-color);
+}
+
+.cv-facts span,
+.cv-facts strong {
+  display: block;
+}
+
+.cv-facts span {
+  margin-bottom: 0.2rem;
+  color: var(--global-text-color-light);
+  font-size: 0.7rem;
+}
+
+.cv-facts strong {
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
 @media (max-width: 760px) {
+  .student-hero {
+    padding: 1.6rem 1.25rem;
+  }
+
+  .student-hero h1 {
+    font-size: 1.65rem;
+  }
+
+  .home-research-grid,
+  .cv-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-facts {
+    gap: 0.8rem;
+  }
+
+  .cv-facts div,
+  .cv-facts div:first-child {
+    padding: 0;
+  }
+
+  .cv-facts div + div {
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--global-border-color);
+    border-left: 0;
+  }
+
   .project-grid,
   .project-card--featured {
     grid-template-columns: 1fr;
