@@ -294,6 +294,8 @@
 }
 
 .student-hero {
+  box-sizing: border-box;
+  max-width: 100%;
   margin: 0 0 2.2rem;
   padding: 2.4rem 2.6rem;
   background: #173f59;
@@ -363,6 +365,7 @@
 }
 
 .home-research-item {
+  box-sizing: border-box;
   min-width: 0;
   padding: 1.1rem 1.2rem;
   border: 1px solid #d6e0e5;
@@ -400,6 +403,7 @@
 
 .home-publication-list a {
   border: 0;
+  overflow-wrap: anywhere;
 }
 
 .home-publication-list span {
@@ -449,6 +453,8 @@
 }
 
 .cv-summary {
+  box-sizing: border-box;
+  max-width: 100%;
   margin-bottom: 1.6rem;
   padding: 1.6rem 1.8rem;
   border-left: 5px solid #087e8b;
@@ -468,6 +474,7 @@
 
 .cv-summary p {
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .cv-summary__links {
