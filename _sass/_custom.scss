@@ -7,6 +7,11 @@
   line-height: 1.82;
 }
 
+#main,
+.masthead__inner-wrap {
+  box-sizing: border-box;
+}
+
 .page__content h2 {
   margin-top: 2.2rem;
   padding-bottom: 0.45rem;
