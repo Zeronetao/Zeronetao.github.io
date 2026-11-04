@@ -1,66 +1,66 @@
 ---
 layout: archive
-title: "研究"
+title: "Projects"
 permalink: /research/
 author_profile: true
 ---
 
-<p class="project-intro">我的工作覆盖行业大模型落地、教育数据挖掘、动态微服务诊断和模型工程化。每个项目页面聚焦问题、职责、技术路径与可验证结果。</p>
+<p class="project-intro">My work spans applied large language models, educational data mining, dynamic microservice diagnosis, and reliable model engineering. Each page presents the problem, my role, the technical approach, and verifiable outcomes.</p>
 
 <div class="project-grid">
   <article class="project-card project-card--featured">
-    <a class="project-card__media" href="/portfolio/hubei-port-platform/" aria-label="查看湖北港口统一对外服务平台项目">
-      <img src="/images/hubei-port-platform.png" alt="湖北港口统一对外服务平台登录页面" loading="lazy">
+    <a class="project-card__media" href="/portfolio/hubei-port-platform/" aria-label="View the Hubei Port platform project">
+      <img src="/images/hubei-port-platform.png" alt="Hubei Port unified external service platform" loading="lazy">
     </a>
     <div class="project-card__body">
-      <span class="project-card__eyebrow">产业项目 · 大模型组主要负责人</span>
-      <h2>湖北港口统一对外服务平台</h2>
-      <p>建设统一服务入口、EDI 数据通道与集装箱专题数据底座，以 OCR 智能体和 AI 助手支持文字问答、图片上传与智能业务办理。</p>
+      <span class="project-card__eyebrow">Industry Project · Lead of the Large Model Group</span>
+      <h2>Hubei Port Unified External Service Platform</h2>
+      <p>A unified service portal, EDI data channel, and container data foundation enhanced by an OCR agent and an AI assistant.</p>
       <div class="project-tags" aria-label="项目技术标签">
         <span>Qwen</span><span>SGLang</span><span>Dify</span><span>OCR</span><span>MCP</span>
       </div>
-      <a class="project-card__link" href="/portfolio/hubei-port-platform/">查看项目详情 <span aria-hidden="true">→</span></a>
+      <a class="project-card__link" href="/portfolio/hubei-port-platform/">View project <span aria-hidden="true">→</span></a>
     </div>
   </article>
 
   <article class="project-card project-card--featured">
-    <a class="project-card__media" href="/portfolio/whut-education-intelligence/" aria-label="查看理工育人智链项目">
-      <img src="/images/whut-education-intelligence.jpg" alt="理工育人智链项目视觉图" loading="lazy">
+    <a class="project-card__media" href="/portfolio/whut-education-intelligence/" aria-label="View the WHUT Education Intelligence Chain project">
+      <img src="/images/whut-education-intelligence.jpg" alt="WHUT Education Intelligence Chain" loading="lazy">
     </a>
     <div class="project-card__body">
-      <span class="project-card__eyebrow">校级项目 · 数据挖掘核心成员</span>
-      <h2>理工育人智链</h2>
-      <p>融合学业、消费、网络行为等多源数据，开展学生画像、关联分析与预警模型评估，为分层分类帮扶提供可解释的辅助依据。</p>
+      <span class="project-card__eyebrow">University Project · Core Data Mining Member</span>
+      <h2>WHUT Education Intelligence Chain</h2>
+      <p>Multi-source educational data governance, association analysis, and warning model evaluation for explainable student support.</p>
       <div class="project-tags" aria-label="项目技术标签">
         <span>Python</span><span>ClickHouse</span><span>Random Forest</span><span>Association Rules</span>
       </div>
-      <a class="project-card__link" href="/portfolio/whut-education-intelligence/">查看项目详情 <span aria-hidden="true">→</span></a>
+      <a class="project-card__link" href="/portfolio/whut-education-intelligence/">View project <span aria-hidden="true">→</span></a>
     </div>
   </article>
 
   <article class="project-card">
-    <a class="project-card__visual project-card__visual--diagnosis" href="/portfolio/microservice-diagnosis/" aria-label="查看动态微服务诊断项目">
+    <a class="project-card__visual project-card__visual--diagnosis" href="/portfolio/microservice-diagnosis/" aria-label="View the dynamic microservice diagnosis project">
       <span>MRC / KLD</span>
       <strong>Dynamic Diagnosis</strong>
     </a>
     <div class="project-card__body">
-      <span class="project-card__eyebrow">科研项目 · 故障诊断</span>
-      <h2>动态微服务根因分析</h2>
-      <p>面向动态拓扑与多源可观测数据，研究多模态细粒度归因和日志感知联合学习。</p>
-      <a class="project-card__link" href="/portfolio/microservice-diagnosis/">查看研究详情 <span aria-hidden="true">→</span></a>
+      <span class="project-card__eyebrow">Research Project · Fault Diagnosis</span>
+      <h2>Dynamic Microservice Root Cause Analysis</h2>
+      <p>Multimodal fine-grained attribution and log-aware joint learning for dynamic topologies and multi-source observability data.</p>
+      <a class="project-card__link" href="/portfolio/microservice-diagnosis/">View project <span aria-hidden="true">→</span></a>
     </div>
   </article>
 
   <article class="project-card">
-    <a class="project-card__visual project-card__visual--evaluation" href="/portfolio/model-evaluation-deployment/" aria-label="查看模型评测与可靠部署项目">
+    <a class="project-card__visual project-card__visual--evaluation" href="/portfolio/model-evaluation-deployment/" aria-label="View the model evaluation and deployment project">
       <span>EVAL / SERVE</span>
       <strong>Reliable AI Systems</strong>
     </a>
     <div class="project-card__body">
-      <span class="project-card__eyebrow">工程体系 · 模型服务</span>
-      <h2>模型评测与可靠部署</h2>
-      <p>以数据闭环、分层评测、性能压测和可观测运维推动模型稳定进入生产环境。</p>
-      <a class="project-card__link" href="/portfolio/model-evaluation-deployment/">查看工程实践 <span aria-hidden="true">→</span></a>
+      <span class="project-card__eyebrow">Engineering · Model Services</span>
+      <h2>Model Evaluation and Reliable Deployment</h2>
+      <p>Data feedback loops, layered evaluation, performance testing, and observable operations for production model services.</p>
+      <a class="project-card__link" href="/portfolio/model-evaluation-deployment/">View project <span aria-hidden="true">→</span></a>
     </div>
   </article>
 </div>

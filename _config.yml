@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "陶倩 | 个人主页"
+title                    : "Tao Qian | 陶倩"
 title_separator          : "-"
-name                     : &name "陶倩"
-description              : &description "陶倩的个人主页，关注多模态大模型、微服务诊断、工业智能与物流行业人工智能。"
+name                     : &name "Tao Qian"
+description              : &description "Academic homepage of Tao Qian, focusing on multimodal AI, microservice diagnosis, applied intelligent systems, and reliable model engineering."
 url                      : https://zeronetao.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -87,11 +87,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: '专著与章节'
+    title: 'Books and Chapters'
   manuscripts:
-    title: '期刊论文'
+    title: 'Manuscripts'
   conferences:
-    title: '会议论文'
+    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

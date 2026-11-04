@@ -1,5 +1,18 @@
 # Authors
 
+tao_en:
+  name       : "Tao Qian"
+  uri        : "https://zeronetao.github.io"
+  email      : "299496062@qq.com"
+  bio        : "M.S. Student at WHUT | Junwei Zhou Research Group"
+  avatar     : "tq_blue.png"
+  location   : "Wuhan, China"
+  employer   : "Wuhan University of Technology"
+  group      : "Junwei Zhou Research Group"
+  group_url  : "https://junwzhou.github.io/"
+  orcid      : "https://orcid.org/0009-0002-1694-5802"
+  github     : "Zeronetao"
+
 Name Name:
   name        : "Name Name"
   uri         : "https://name.com"
