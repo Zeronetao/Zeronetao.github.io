@@ -517,7 +517,40 @@
   line-height: 1.45;
 }
 
+.cv-education-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0;
+}
+
+.cv-education-line strong,
+.cv-education-line span {
+  min-width: 0;
+}
+
+.cv-education-line span {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+}
+
 @media (max-width: 760px) {
+  .masthead__inner-wrap {
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+  }
+
+  .greedy-nav a {
+    margin-right: 0.55rem;
+    margin-left: 0.55rem;
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 0.5rem;
+    font-size: 0.88rem;
+  }
+
   .student-hero {
     padding: 1.6rem 1.25rem;
   }
@@ -544,6 +577,20 @@
     padding-top: 0.8rem;
     border-top: 1px solid var(--global-border-color);
     border-left: 0;
+  }
+
+  .cv-education-line {
+    display: block;
+  }
+
+  .cv-education-line strong,
+  .cv-education-line span {
+    display: block;
+    overflow-wrap: anywhere;
+  }
+
+  .cv-education-line span {
+    margin-top: 0.15rem;
   }
 
   .project-grid,
